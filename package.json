@@ -1,0 +1,23 @@
+{
+  "name": "eleventy-website",
+  "version": "0.0.1",
+  "description": "eleventy website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --serve",
+    "build": "npx @11ty/eleventy --input=src"
+  },
+  "keywords": [
+    "website",
+    "eleventy"
+  ],
+  "author": "Archana",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.49.9",
+    "tailwindcss": "^3.0.23"
+  }
+}

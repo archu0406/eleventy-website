@@ -1,0 +1,108 @@
+body{
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* navbar */
+  
+.navbar-nav{
+  margin-right: 0 !important;
+  padding-right: 100px;
+}
+
+.navbar{
+  background-color: #0a193d;
+  color: white !important;
+}
+
+.nav-item a{
+  color: white !important;
+}
+
+.nav-item{
+  padding-left: 2px;
+}
+
+.navbar-brand{
+  color: white !important;
+  padding-left: 100px;
+  font-style: italic;
+}
+
+#navbar button{
+  color: white !important;
+}
+
+  
+#banner-container{
+  background-color:aliceblue;
+  color: rgb(2, 2, 2) !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
+    
+}
+
+#banner-row img{
+  max-width: 70%;
+  height: auto;
+  display: block;
+  padding-left: 30px;
+}
+
+#banner-row h3{
+  padding-left: 10px;
+  padding-top: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#banner-row p{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  text-align: center;
+  font-style: italic;
+}
+
+#banner-row a{
+  background-color: rgb(23, 22, 105) !important;
+  color: rgb(250, 237, 237) !important;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+    
+}
+#banner-col{
+  padding-left: 20px;
+}
+
+.footer{
+  background-color: #0a193d;
+  color:white;
+}
+
+.navbar-toggler{
+  background-color: aliceblue;
+}
+
+#service{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#service h1{
+  padding-bottom: 50px;
+}
+
+#service p{
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
